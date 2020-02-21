@@ -1,0 +1,7 @@
+-- Inserir dados no banco de dados
+INSERT INTO "donors"("name","email","blood")VALUES('Robson Marques','a@aaa.com','A+')
+
+--Buscar Dados
+SELECT * FROM "donors";
+
+TRUNCATE "donors"
